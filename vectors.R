@@ -18,3 +18,10 @@ x[c(2, 5)]
 
 # get all elements except 2nd element
 x[-2]
+
+# Create a string vector <names> with elements mike, jordan and joe
+names <- c("mike", "jordan", "joe")
+names
+
+# length of the vector
+length(names)
