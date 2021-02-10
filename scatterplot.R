@@ -1,5 +1,6 @@
+#+eval=FALSE
 # install the vcd package
-install.packages("vcd")
+# install.packages("vcd")
 
 # import the vcd library
 library(vcd)
@@ -18,4 +19,16 @@ plot(
   ylab = "Sales",
   xlab = "Temperature" ,
   col = "blue"
+)
+
+# added circle size and type of circle
+plot(
+  temperature,
+  sales,
+  main = "sales ~ temperature scatter plot",
+  ylab = "Sales",
+  xlab = "Temperature" ,
+  col = "blue",
+  pch = 19,
+  cex = 5
 )
