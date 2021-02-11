@@ -32,3 +32,15 @@ plot(
   pch = 19,
   cex = 5
 )
+
+# changed circle to different icon for scatter plot
+plot(
+  temperature,
+  sales,
+  main = "sales ~ temperature scatter plot",
+  ylab = "Sales",
+  xlab = "Temperature" ,
+  col = "blue",
+  pch = 18,
+  cex = 5
+)
