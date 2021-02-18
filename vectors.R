@@ -1,5 +1,8 @@
 # creating a vector using : operator
-x <- 1:7; x
+x <- 1:7; 
+
+# length of x
+length(x)
 
 # create a vector with a range
 y <- 2:-2; y
