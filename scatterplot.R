@@ -1,6 +1,6 @@
 #+eval=FALSE
 # install the vcd package
-# install.packages("vcd")
+install.packages("vcd")
 
 # import the vcd library
 library(vcd)
