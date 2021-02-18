@@ -1,4 +1,3 @@
-#+eval=FALSE
 # install the vcd package
 install.packages("vcd")
 
