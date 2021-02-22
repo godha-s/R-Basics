@@ -96,6 +96,4 @@ axis(side=2,at=c(0,d$cumcount),las=2,col.axis="grey62",col="grey62",cex.axis=0.8
 # add right side axis details
 axis(side=4,at=c(0,d$cumcount),labels=paste(c(0,round(d$cumfreq)),"%",sep=""),las=2,col.axis="cyan4",col="cyan4",cex.axis=0.8)
 
-# Display the finished Species Pareto Plot
-sub="Shanmuka Goda"
 
