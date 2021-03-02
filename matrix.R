@@ -7,5 +7,5 @@ M <- matrix(c(3:14), nrow = 4, byrow = TRUE)
 print(M)
 
 # Elements are arranged sequentially by column.
-N <- matrix(c(3:14), nrow = 4, byrow = FALSE)
+N <- matrix(c(3:19), nrow = 4, byrow = FALSE)
 print(N)
